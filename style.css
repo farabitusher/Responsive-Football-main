@@ -13,6 +13,7 @@ h1{
 /*----------------------
       Hero section
  --------------------- */
+ 
 header{
     background-color: #2D25A0;
     /* padding: 20px; */
@@ -54,6 +55,10 @@ header{
             color: #2D25A0;
             
         }
+
+/*-------------------------
+      main section
+ --------------------- */
 .main-section{
     max-width: 1140px;
     display: grid;
@@ -63,88 +68,109 @@ header{
     margin: 0 auto;
     gap: 30px;
     margin-top: 30px;
-}
-.card{
-    width: 350px;
-    height: 470px;
-    background-color: #FFFFFF;
-    padding: 10px;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    transition: ease-in 1.4s;
-    border-radius: 10px;
-    }.card:hover{
-        transform: scale(1.1);
-    }
-.card-img{
-    width: 300px;
-    height: 256px;
-    justify-content: center;
-    align-items: center;
-}
-.card-text{
-    align-items: center;
-    margin-left: 12px;
-    margin-top: 10px;
-}
+}       .card{
+            width: 350px;
+            height: 470px;
+            background-color: #FFFFFF;
+            padding: 10px;
+            box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: ease-in 1.4s;
+            border-radius: 10px;
+        } .card:hover{
+                transform: scale(1.1);
+        }.card-img{
+            width: 300px;
+            height: 256px;
+            justify-content: center;
+            align-items: center;
+        }.card-text{
+            align-items: center;
+            margin-left: 12px;
+            margin-top: 10px;
+        }
+
+
+/*----------------------
+      Highlight section
+ --------------------- */
+ 
 .highlight-area{
     display: flex;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    
-}
-.highlight-img{
-    width: 567px;
-    height: 427px;
-    margin-left: 30px;
+    margin-top: 100px; 
+       }.highlight-img{
+            width: 567px;
+            height: 427px;
+            margin-left: 30px;
+       }.highlight-text{
+            width: 469px;
+            align-items: center;
+            justify-content: center;
+            color: #0A0826;
+      }.highlight-area-btn{
+            margin-top: 50px;
+      } .highlight-area-btn:hover{
+            background-color: #2D25A0;
+            color: #FFFFFF;
+      }
+   
 
-}
-.highlight-text{
-    width: 469px;
+
+/*----------------------
+      Subscribe section
+ --------------------- */
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    padding: 50px;
+    /* margin: 0 auto; */
     align-items: center;
-    justify-content: center;
-    color: #0A0826;
-}
+    justify-content:center ;
+    background-color: #3088db;
+        }.input{
+            padding: 10px;
+            margin-top: 10px;
+        }.subscribe-text{
+            color: white;
+        }
+
+ 
+/*----------------------
+      Footer section
+ --------------------- */
 footer{
     display: flex;
     flex-direction: column;
-    margin-top: 200px;
+    margin-top: 60px;
     margin-bottom: 50px;
     justify-content: center;
     align-items: center;
     /* background-color: #0A0826; */
-}
-.footer-logo{
-    width: 25%;
-    align-items: center;
-}
-.footer-text{
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    padding: 20px;
-    /* background-color: #0A0826; */
-    /* color:white; */
-}.highlight-area-btn{
-    margin-top: 50px;
-}
-.highlight-area-btn:hover{
-    background-color: #2D25A0;
-    color: #FFFFFF;
-   
+}       .footer-logo{
+            width: 25%;
+            align-items: center;
+        }.footer-text{
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+            padding: 20px;
+            /* background-color: #0A0826; */
+            /* color:white; */
+        }.social-icon{
+            padding: 10px;
+            
+        }.fa-brands{
+            margin-left: 10px;
+            
+        }.fa-arrow-right{
+            margin-left: 5px;
+        }
 
-}
-.social-icon{
-    padding: 10px;
-    
-}.fa-brands{
-    margin-left: 10px;
-    
-}.fa-arrow-right{
-    margin-left: 5px;
-}
+
