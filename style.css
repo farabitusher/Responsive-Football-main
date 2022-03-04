@@ -29,7 +29,11 @@ header{
             height: 438px;
             padding: 20px;
             margin-left: 150px;
-        }.hero-text{
+            transition: 1.1s ease-in;
+        }.hero-img:hover{
+            transform: scale(1.1);
+        }
+        .hero-text{
             align-items: center;
             justify-content: center;
             /* padding: 20px; */
@@ -40,6 +44,15 @@ header{
         }.hero-btn{
             margin-top: 10px;
             padding: 10px;
+            background-color: #E02C6D;
+            color: #FFFFFF;
+            padding: 10px 24px;
+            font-size: 18px;
+            border: none;
+        }.hero-btn:hover{
+            background-color: #FFFFFF;
+            color: #2D25A0;
+            
         }
 .main-section{
     max-width: 1140px;
@@ -61,6 +74,10 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: ease-in 1.4s;
+    border-radius: 10px;
+    }.card:hover{
+        transform: scale(1.1);
     }
 .card-img{
     width: 300px;
@@ -79,6 +96,7 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    
 }
 .highlight-img{
     width: 567px;
@@ -95,13 +113,14 @@ header{
 footer{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    margin-top: 200px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
     /* background-color: #0A0826; */
 }
 .footer-logo{
-    width: 30%;
+    width: 25%;
     align-items: center;
 }
 .footer-text{
@@ -111,4 +130,21 @@ footer{
     padding: 20px;
     /* background-color: #0A0826; */
     /* color:white; */
+}.highlight-area-btn{
+    margin-top: 50px;
+}
+.highlight-area-btn:hover{
+    background-color: #2D25A0;
+    color: #FFFFFF;
+   
+
+}
+.social-icon{
+    padding: 10px;
+    
+}.fa-brands{
+    margin-left: 10px;
+    
+}.fa-arrow-right{
+    margin-left: 5px;
 }
