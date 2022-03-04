@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    
+}
+/*----------------------
+      Hero section
+ --------------------- */
+header{
+    background-color: #2D25A0;
+    /* padding: 20px; */
+}.hero-section{
+    display: flex;
+    max-width: 1140px;
+    justify-content: center;
+    background-color: #2D25A0;
+    margin: 0 auto;
+    align-items: center;
+   height: 600px;
+}       .hero-img{
+            width: 556.01px;
+            height: 438px;
+            padding: 20px;
+            margin-left: 150px;
+        }.hero-text{
+            align-items: center;
+            justify-content: center;
+            /* padding: 20px; */
+            color: #FFFFFF;
+            line-height: 65px;
+            font-weight: 700;
+            font-size: 36px;
+        }.hero-btn{
+            margin-top: 10px;
+            padding: 10px;
+        }
+.main-section{
+    max-width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 30px;
+    margin-top: 30px;
+}
+.card{
+    width: 350px;
+    height: 470px;
+    background-color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.card-img{
+    width: 300px;
+    height: 256px;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    align-items: center;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+.highlight-area{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.highlight-img{
+    width: 567px;
+    height: 427px;
+    margin-left: 30px;
+
+}
+.highlight-text{
+    width: 469px;
+    align-items: center;
+    justify-content: center;
+    color: #0A0826;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #0A0826; */
+}
+.footer-logo{
+    width: 30%;
+    align-items: center;
+}
+.footer-text{
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #0A0826; */
+    /* color:white; */
+}
